@@ -1,0 +1,30 @@
+/*
+   New Perspectives on HTML and CSS
+   Tutorial 7
+   Review Assignment
+
+   Jumbo Popcorn Style Sheet
+
+   Author:     Anish Manandhar      
+   Date:       April 4, 2019      
+
+   Filename:         embed.css
+   Supporting Files: 
+
+*/
+
+audio, video {
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+object {
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
