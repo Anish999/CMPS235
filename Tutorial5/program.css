@@ -1,0 +1,86 @@
+/*
+   New Perspectives on HTML and CSS
+   Tutorial 5
+   Review Assignment
+
+   Programming Table Style Sheet
+   Author: Anish Manandhar
+   Date:   5 March, 2019
+
+   Filename:         programs.css
+   Supporting Files: 
+
+*/
+
+table.programs{					/*Basic table styles*/
+	width: 100%;
+	border: 2px solid black;
+	border-collapse: collapse;
+	font-family: Arial, Verdana, sans-serif;
+}
+
+table.programs caption{			/*Positioning of the caption and also the font size edit*/
+	caption-side: bottom;
+	text-align: left;
+	font-size: 0.8em;
+}
+
+table.programs tbody td{	/*Styles added to table datas in tbody*/
+	font-size: 0.7 em;
+	vertical-align: top;
+	border:1px solid grey;
+	padding: 2px;
+}
+
+table.programs tbody th{	/*Styles added to table headers in tbody*/
+	font-size: 0.7 em;
+	vertical-align: top;
+	border:1px solid grey;
+	padding: 2px;
+}
+
+table.programs tbody tr{	/*Set the height of each cell in tbody to 25 pixels*/
+	height: 25px;
+}
+
+table.programs thead{		/*set background color and font color of table header*/
+	background-color: rgb(105,177,60);
+	color: white;
+}
+table.programs thead th:nth-of-type(1){ /*Give different color to 1st column of table header*/
+	background-color: rgb(153,86,7);
+}
+table.programs thead th:nth-of-type(7){	/*Give different color to 7th column of table header*/
+	background-color: rgb(153,0,153);
+}
+
+table.programs thead th:nth-of-type(8){	/*Give different color to 8th column of table header*/
+	background-color: rgb(153,0,153);
+}
+
+table.programs thead th{	/*Styles added to table header in thead for uniformity*/
+	font-size: 0.7 em;
+	vertical-align: top;
+	border:1px solid grey;
+	padding: 2px;
+}
+
+table.programs col.timeColumn{ /*Set background color for time columns*/
+	width: 10%;
+	background-color: rgb(215,205,151);
+}
+table.programs col.wDayColumn{		/*Set background color for weekdays columns*/
+	width: 11%;
+	background-color: rgb(236,255,211);
+}
+table.programs col.wEndColumn{		/*Set background color for weekend columns*/
+	width: 17%;
+	background-color: rgb(255,231,255);
+}
+
+#intro p{		/*Divide paragraph into 3 columns*/
+	column-count: 3;
+	column-gap:20px;
+	column-rule: 1px solid black;
+}
+
